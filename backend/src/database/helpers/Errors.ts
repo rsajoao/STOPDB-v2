@@ -1,4 +1,4 @@
-import { ErrTypes } from "../types/Error";
+import { ErrTypes } from '../interfaces/Error';
 
 const Errors: ErrTypes[] = [
   {
