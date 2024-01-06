@@ -4,12 +4,21 @@ const Errors: ErrTypes[] = [
   {
     code: 400,
     error: 'BAD_REQUEST',
-    messages: [],
+    messages: [
+      "O campo 'email' é obrigatório",
+      'O email deve ser válido',
+      "O campo 'password' é obrigatório",
+      'A senha precisa ter pelo menos 6 dígitos entre números e letras',
+      "O campo 'username' é obrigatório",
+      'O username deve conter pelo menos 4 caracteres',
+      'O username deve começar com uma letra',
+      'O username deve conter apenas letras e números'
+    ],
   },
   {
     code: 401,
     error: 'UNAUTHORIZED',
-    messages: [],
+    messages: ['Não autorizado', 'Token inválido', 'Token inexistente'],
   },
   {
     code: 404,
@@ -24,7 +33,7 @@ const Errors: ErrTypes[] = [
   {
     code: 409,
     error: 'CONFLICT',
-    messages: [],
+    messages: ['Username já registrado', 'E-mail já registrado'],
   },
 ];
 
