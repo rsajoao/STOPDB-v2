@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import Errors from '../helpers/Errors';
-import { Err, ErrObject, ErrTypes } from '../types/Error';
+import { ErrObject, ErrTypes } from '../interfaces/Error';
 
 const errorResponse = (message: string): ErrObject => {
   const err: ErrTypes = Errors.find((Error) =>
@@ -21,7 +21,7 @@ const errorResponse = (message: string): ErrObject => {
   };
 };
 
-export default class {
+export default class ErrorHandler {
   public static handler(
     error: Error,
     _req: Request,

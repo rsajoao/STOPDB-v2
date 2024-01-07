@@ -27,3 +27,4 @@ export type Letter =
   | 'Z';
 
 export type Status = 'pending' | 'accepted' | 'rejected';
+

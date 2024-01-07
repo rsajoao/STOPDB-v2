@@ -1,6 +1,6 @@
 import { DataTypes, Model } from 'sequelize';
 import db from './config';
-import { Letter, Status } from '../types/Answer';
+import { Letter, Status } from '../interfaces/Answer';
 
 export default class Answer extends Model {
   declare id: number;

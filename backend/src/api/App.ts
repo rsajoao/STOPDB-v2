@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-// import ErrorHandler from '../database/middlewares/ErrorHandler';
+import ErrorHandler from '../database/middlewares/ErrorHandler';
 import routers from '../database/routers';
 import associateModels from '../database/models/Associates';
 
@@ -33,7 +33,7 @@ class App {
         exposedHeaders: ['X-User-Token'],
       }),
     );
-    // this.app.use(ErrorHandler.handler);
+    this.app.use(ErrorHandler.handler);
   }
 
   public start(PORT: string | number): void {
