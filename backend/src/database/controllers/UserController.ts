@@ -39,4 +39,18 @@ export default class UserController {
       this.next(err);
     }
   }
+
+  public async recover(): Promise<Response | void> {
+    try {
+      const {
+        body: { login, url },
+      } = this.req;
+
+      const result = await this.service.recover(login, url);
+
+      return this.res.status(200).json(result);
+    } catch (err) {
+      this.next(err);
+    }
+  }
 }

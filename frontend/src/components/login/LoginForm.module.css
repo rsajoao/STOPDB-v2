@@ -1,0 +1,43 @@
+.recover {
+  display: inline-block;
+  color: #666666;
+  padding: 0.5rem 0;
+  line-height: 1;
+  margin-bottom: 2rem;
+
+  &::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: currentColor;
+    display: block;
+  }
+}
+
+.create {
+  margin: 0.25rem 0;
+
+  & > h2 {
+    font-family: var(--type-scd);
+    line-height: 1;
+    font-size: 2rem;
+
+    &::after {
+      content: '';
+      display: block;
+      background-color: #DDDDDD;
+      height: 0.5rem;
+      width: 3rem;
+      border-radius: 0.2rem;
+      margin: 0;
+    }
+  }
+
+  & > p {
+    margin: 1rem 0;
+  }
+
+  & > a button {
+    width: 100%;
+  }
+}
