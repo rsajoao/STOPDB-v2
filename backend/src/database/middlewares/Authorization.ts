@@ -8,12 +8,12 @@ export default function ValidateUser(
   next: NextFunction,
 ) {
   const {
-    headers: { authorization },
+    headers: { authorization: token },
   } = req;
 
-  if (!authorization) throw new Error('Token inexistente');
-  if (typeof authorization === 'string') {
-    const user = verifyToken(authorization);
+  if (!token) throw new Error('Token inexistente');
+  if (typeof token === 'string') {
+    const user = verifyToken(token);
     if ('error' in user) throw new Error('Token inválido');
     else req.userData = user;
   }

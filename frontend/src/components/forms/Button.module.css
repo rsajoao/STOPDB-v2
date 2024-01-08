@@ -1,0 +1,26 @@
+.button {
+  font-size: 1rem;
+  font-family: var(--type-scd);
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  padding: 1rem 1.5rem;
+  color: white;
+  min-width: 12rem;
+  box-shadow: 0 0 0 4px transparent;
+  background: #DC143C;
+  transition: 0.4s;
+
+  &:hover, &:focus {
+    border-color: #eee;
+    box-shadow: 0 0 0 1px var(--color-shadow);
+  }
+
+  &:disabled {
+    cursor: auto;
+    background: var(--color-disabled);
+    border-color: #DC96BE;
+    color: #EEE;
+    box-shadow: none;
+  }
+}

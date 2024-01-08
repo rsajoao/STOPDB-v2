@@ -21,14 +21,14 @@ export default class UserService {
 
     if (!user) throw new Error('Não autorizado');
     if (
-      !compareObjects(
+      compareObjects(
         {
           id,
           email,
           username,
           role,
         },
-        user.dataValues,
+        user,
       )
     )
       throw new Error('Não autorizado');
@@ -40,7 +40,6 @@ export default class UserService {
     email: string,
     password: string,
   ): Promise<NewUser> {
-    console.log('estou aqui');
     const existingUser = await User.findOne({
       where: {
         [Op.or]: [{ username }, { email }],
@@ -64,5 +63,37 @@ export default class UserService {
       username,
       email,
     };
+  }
+
+  public async recover(
+    login: string,
+    url: string,
+  ): Promise<{
+    result: string;
+    url: string;
+  }> {
+    const isEmail = login.includes('@');
+    const result = {
+      result: '',
+      url,
+    };
+    if (isEmail) {
+      const user = await this.model.findOne({
+        where: { email: login },
+      });
+      if (user) {
+        result.result = 'E-mail enviado (user=email)';
+        return result;
+      }
+      throw new Error('Usuário não encontrado (email)');
+    }
+    const user = await this.model.findOne({
+      where: { username: login },
+    });
+    if (user) {
+      result.result = 'E-mail enviado (user=username)';
+      return result;
+    }
+    throw new Error('Usuário não encontrado (username)');
   }
 }

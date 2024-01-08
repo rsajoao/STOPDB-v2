@@ -12,11 +12,16 @@ UserRouter.get('/get-user', ValidateUser, (req, res, next) =>
 );
 
 UserRouter.post(
-  '/create-user',
+  '/create',
   EmailValidation,
   PasswordValidation,
   UsernameValidation,
   (req, res, next) => new UserController(req, res, next).createUser(),
+);
+
+UserRouter.post(
+  '/recover',
+  (req, res, next) => new UserController(req, res, next).recover(),
 )
 
 export default UserRouter;

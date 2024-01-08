@@ -1,0 +1,33 @@
+.login {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  min-height: calc(100vh - 4rem);
+  gap: 0.5rem;
+  margin: 0 auto;
+  width: 100%;
+
+  &::before {
+    content: '';
+    display: block;
+    background-color: var(--color);
+    background-size: cover;
+  }
+}
+
+.forms {
+  margin: auto 0;
+}
+
+@media (max-width: 40rem) {
+  .login {
+    grid-template-columns: 1fr;
+
+    &::before {
+      display: none
+    }
+  }
+
+  .forms {
+    max-width: none;
+  }
+}

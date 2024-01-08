@@ -12,7 +12,7 @@ const Errors: ErrTypes[] = [
       "O campo 'username' é obrigatório",
       'O username deve conter pelo menos 4 caracteres',
       'O username deve começar com uma letra',
-      'O username deve conter apenas letras e números'
+      'O username deve conter apenas letras e números',
     ],
   },
   {
@@ -23,12 +23,16 @@ const Errors: ErrTypes[] = [
   {
     code: 404,
     error: 'NOT_FOUND',
-    messages: [],
+    messages: [
+      'Usuário não encontrado',
+      'Usuário não encontrado (email)',
+      'Usuário não encontrado (username)',
+    ],
   },
   {
     code: 403,
     error: 'FORBIDDEN',
-    messages: [],
+    messages: ['Senha incorreta'],
   },
   {
     code: 409,

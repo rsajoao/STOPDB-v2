@@ -1,0 +1,30 @@
+.inputBox {
+  width: 100%;
+}
+
+.input {
+  border: 1px solid #EEE;
+  font-family: var(--type-scd);
+  display: block;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #EEE !important;
+  transition: 0.4s;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    border-color: var(--color);
+    background-color: #FFF !important;
+    box-shadow: 0 0 0 2px var(--color-shadow);
+  }
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 0.125rem;
+}
