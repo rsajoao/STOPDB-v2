@@ -7,9 +7,22 @@ export const DataContext = React.createContext<DataContextProps>(
 );
 
 export const DataProvider = ({ children }: { children: React.ReactNode }) => {
-  const context: DataContextProps = {};
+  const [themes, setThemes] = React.useState([]);
+  const [categories, setCategories] = React.useState([]);
+  const [loading, setLoading] = React.useState<boolean>(false);
+  const [error, setError] = React.useState<string>('');
 
-  return (
-    <DataContext.Provider value={context}>{children}</DataContext.Provider>
-  );
+  const getThemes = React.useCallback(async function () {
+
+  }, []);
+
+  const getCategories = React.useCallback(async function () {
+
+  }, []);
+
+  const getAnswers = React.useCallback(async function () {
+    
+  }, []);
+
+  return <DataContext.Provider value={{}}>{children}</DataContext.Provider>;
 };

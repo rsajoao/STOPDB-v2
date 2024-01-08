@@ -1,5 +1,5 @@
 import React from 'react';
-import { SVG } from '../interfaces/Props/SVG';
+import { SVG } from '../../interfaces/Props/SVG';
 
 const Hand: React.FC<SVG> = ({ color, size }) => {
   return (

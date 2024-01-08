@@ -1,6 +1,6 @@
 import React from 'react';
 import useForm from '../../hooks/useForm';
-import Head from '../helpers/Head';
+import Head from '../../helpers/Head';
 import Input from '../forms/Input';
 import Button from '../forms/Button';
 import { UserContext } from '../../contexts/UserContext';

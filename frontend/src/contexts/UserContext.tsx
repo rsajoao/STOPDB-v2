@@ -1,10 +1,6 @@
 import React from 'react';
-import { UserData } from '../components/interfaces/User';
-import {
-  TOKEN_POST,
-  TOKEN_VALIDATE_POST,
-  USER_GET,
-} from '../components/helpers/Api';
+import { UserData } from '../interfaces/User';
+import { TOKEN_POST, TOKEN_VALIDATE_POST, USER_GET } from '../helpers/Api';
 import { useNavigate } from 'react-router-dom';
 
 interface UserContextProps {

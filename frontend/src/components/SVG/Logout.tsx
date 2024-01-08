@@ -1,5 +1,5 @@
 import React from 'react';
-import { SVG } from '../interfaces/Props/SVG';
+import { SVG } from '../../interfaces/Props/SVG';
 
 const Logout: React.FC<SVG> = ({ size, color }) => {
   return (

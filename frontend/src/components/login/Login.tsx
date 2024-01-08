@@ -4,7 +4,7 @@ import styles from './Login.module.css';
 import LoginForm from './LoginForm';
 import LoginCreate from './LoginCreate';
 import LoginRecover from './LoginRecover';
-import NotFound from '../helpers/NotFound';
+import NotFound from '../../helpers/NotFound';
 
 const Login = () => {
   return (

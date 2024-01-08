@@ -1,8 +1,6 @@
 import React, { ReactElement } from 'react';
 import styles from './Input.module.css';
-import { InputProps } from '../interfaces/Props/Input';
-
-
+import { InputProps } from '../../interfaces/Props/Input';
 
 const Input: React.FC<InputProps> = ({
   label,
@@ -25,11 +23,11 @@ const Input: React.FC<InputProps> = ({
           onChange={onChange}
           onBlur={onBlur}
           className={styles.input}
-          autoComplete='off'
+          autoComplete="off"
         />
       </label>
-      <div className='errorContainer'>
-        {error && <p className='error'>{error}</p>}
+      <div className="errorContainer">
+        {error && <p className="error">{error}</p>}
       </div>
     </div>
   );

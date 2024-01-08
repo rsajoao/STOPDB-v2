@@ -1,10 +1,10 @@
 import React from 'react';
-import Head from '../helpers/Head';
+import Head from '../../helpers/Head';
 import useForm from '../../hooks/useForm';
 import useFetch from '../../hooks/useFetch';
 import Input from '../forms/Input';
 import Button from '../forms/Button';
-import { PASSWORD_LOST } from '../helpers/Api';
+import { PASSWORD_LOST } from '../../helpers/Api';
 
 const LoginRecover = () => {
   const login = useForm();
