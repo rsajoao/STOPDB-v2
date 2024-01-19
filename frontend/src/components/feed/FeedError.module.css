@@ -1,0 +1,27 @@
+.error {
+  margin-top: 5rem;
+  & > h1 {
+    padding: 2rem 2rem 0.25rem 0;
+    background-color: #eeeeeefa;
+    border-radius: 2rem 2rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  & > h2 {
+    padding-top: 1rem;
+
+    &::after {
+      content: '';
+      height: 0.5rem;
+      width: 0.5rem;
+      background-color: #DC143C;
+      display: block;
+    }
+  }
+
+  & > p {
+    font-size: 1.25rem;
+  }
+}

@@ -5,8 +5,17 @@ import LoginForm from './LoginForm';
 import LoginCreate from './LoginCreate';
 import LoginRecover from './LoginRecover';
 import NotFound from '../../helpers/NotFound';
+import { UserContext } from '../../contexts/UserContext';
 
 const Login = () => {
+  const { login } = React.useContext(UserContext);
+  const navigate = useNavigate();
+  
+  React.useEffect(() => {
+    if (login) navigate('/conta');
+  }, [login, navigate])
+
+  if (login) return null;
   return (
     <section className={styles.login}>
       <div className={styles.forms}>

@@ -6,7 +6,7 @@ import { UserProvider } from './contexts/UserContext';
 import { DataProvider } from './contexts/DataContext';
 import Header from './components/Header';
 import Account from './components/account/Account';
-import Feed from './components/Feed/Feed';
+import Feed from './components/feed/Feed';
 
 const App = () => {
   return (

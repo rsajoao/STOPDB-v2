@@ -1,0 +1,49 @@
+.container {
+  flex: 2.5;
+  margin-left: 0.25rem;
+  padding: 0 1rem;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.answer {
+  font-family: var(--type-scd);
+  display: flex;
+  flex-direction: column;
+  transition: 0.25s;
+  &:hover {
+    background-color: #fcfbfb;
+  }
+
+  & > h3 {
+    border-bottom: 1px solid #777;
+    padding: 0.75rem 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
+.category {
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.username {
+  align-self: flex-end;
+}
+
+a {
+  color: #999
+}
+
+@media (max-width: 40rem) {
+  .container {
+    display: none;
+  }
+}

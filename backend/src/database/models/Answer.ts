@@ -13,6 +13,9 @@ export default class Answer extends Model {
   declare letter: Letter;
   declare createdAt: Date;
   declare updatedAt: Date;
+  declare likes: number[];
+  declare group: number[];
+  declare views: number;
   category: any;
   byUser: any;
 }
@@ -53,6 +56,14 @@ Answer.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    likes: {
+      type: DataTypes.JSON,
+      allowNull: false,
+    },
+    views: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    }
   },
   {
     underscored: true,

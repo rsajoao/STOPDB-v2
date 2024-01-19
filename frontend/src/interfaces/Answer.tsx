@@ -28,11 +28,12 @@ export type Letter =
 
 export type Status = 'pending' | 'accepted' | 'rejected';
 
-export interface IAnswer {
+export interface Answer {
+  username: string;
+  views?: number;
+  likes?: number[];
   id: number;
   answer: string;
-  likes: number[];
-  views: number;
   categoryId: number;
   category: string;
   rare?: boolean;

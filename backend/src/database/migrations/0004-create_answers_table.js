@@ -48,22 +48,30 @@ module.exports = {
         defaultValue: true,
         allowNull: false,
       },
+      letter: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      likes: {
+        type: Sequelize.JSON,
+        defaultValue: JSON.stringify([]),
+        allowNull: true,
+      },
+      views: {
+        type: Sequelize.INTEGER,
+        defaultValue: 0,
+        allowNull: false,
+      },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
         defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
         field: 'created_at',
       },
-      letter: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal(
-          'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP',
-        ),
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
         field: 'updated_at',
       },
     });

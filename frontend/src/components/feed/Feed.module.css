@@ -1,0 +1,13 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.feedData {
+  display: flex;
+  margin-top: 0.25rem;
+}

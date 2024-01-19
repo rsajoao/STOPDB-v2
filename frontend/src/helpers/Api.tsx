@@ -68,8 +68,50 @@ export function PASSWORD_LOST(body: Record<string, string>): FetchParameters {
   };
 }
 
+export function THEMES_GET(): FetchParameters {
+  return {
+    url: `${API_URL}/theme/get-all`,
+    options: {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
 
+export function CATEGORIES_GET(): FetchParameters {
+  return {
+    url: `${API_URL}/category/get-all`,
+    options: {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
 
+export function ANSWERS_GET(): FetchParameters {
+  return {
+    url: `${API_URL}/answer/get-all`,
+    options: {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    },
+  };
+}
 
-
-
+export function ANSWER_GET(id: string | number): FetchParameters {
+  return {
+    url: `${API_URL}/answer/get-by-id/${id}`,
+    options: {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }
+  }
+}

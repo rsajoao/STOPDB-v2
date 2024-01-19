@@ -12,6 +12,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Alexander Pushkin'.toUpperCase(),
@@ -21,6 +23,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Allan Percy'.toUpperCase(),
@@ -30,6 +34,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Beatrix Potter'.toUpperCase(),
@@ -39,6 +45,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Bram Stoker'.toUpperCase(),
@@ -48,6 +56,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Burroughs'.toUpperCase(),
@@ -57,6 +67,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Camus'.toUpperCase(),
@@ -66,6 +78,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Cao Xueqin'.toUpperCase(),
@@ -75,6 +89,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Corin Tellado'.toUpperCase(),
@@ -84,6 +100,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Divaldo Franco'.toUpperCase(),
@@ -93,6 +111,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Eiichiro Oda'.toUpperCase(),
@@ -102,6 +122,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Eurípedes'.toUpperCase(),
@@ -111,6 +133,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Eva Furnari'.toUpperCase(),
@@ -120,6 +144,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Friedrich Engels'.toUpperCase(),
@@ -129,6 +155,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'F',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Feynman'.toUpperCase(),
@@ -138,6 +166,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'F',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Gramsci'.toUpperCase(),
@@ -147,6 +177,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Graça Aranha'.toUpperCase(),
@@ -156,6 +188,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Gilbert Patten'.toUpperCase(),
@@ -165,6 +199,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Henrik Ibsen'.toUpperCase(),
@@ -174,6 +210,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Isaac Babel'.toUpperCase(),
@@ -183,6 +221,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'I',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'John Keats'.toUpperCase(),
@@ -192,6 +232,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jeff Kinney'.toUpperCase(),
@@ -201,6 +243,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kishimoto'.toUpperCase(),
@@ -210,6 +254,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kierkegaard'.toUpperCase(),
@@ -219,6 +265,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Liev Tolstoi'.toUpperCase(),
@@ -228,6 +276,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ludlum'.toUpperCase(),
@@ -237,6 +287,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mark Manson'.toUpperCase(),
@@ -246,6 +298,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mário de Sá Carneiro'.toUpperCase(),
@@ -255,6 +309,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Nietzsche'.toUpperCase(),
@@ -264,6 +320,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'N',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Nelida Piñon'.toUpperCase(),
@@ -273,6 +331,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'N',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Olga Tokarczuk'.toUpperCase(),
@@ -282,6 +342,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Orhan Pamuk'.toUpperCase(),
@@ -291,6 +353,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Platão'.toUpperCase(),
@@ -300,6 +364,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Peter Lynch'.toUpperCase(),
@@ -309,6 +375,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Quintiliano'.toUpperCase(),
@@ -318,6 +386,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Q',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Qorpo Santo'.toUpperCase(),
@@ -327,6 +397,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Q',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Q Hayashida'.toUpperCase(),
@@ -336,6 +408,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Q',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Richard Dawkins'.toUpperCase(),
@@ -345,6 +419,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Roald Dahl'.toUpperCase(),
@@ -354,6 +430,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Samuel Beckett'.toUpperCase(),
@@ -363,6 +441,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Taunay'.toUpperCase(),
@@ -372,6 +452,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Togashi'.toUpperCase(),
@@ -381,6 +463,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ursula K Le Guin'.toUpperCase(),
@@ -390,6 +474,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'U',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Victoria Aveyard'.toUpperCase(),
@@ -399,6 +485,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'William P Young'.toUpperCase(),
@@ -408,6 +496,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Xinran'.toUpperCase(),
@@ -417,6 +507,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'X',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Xavier Finkley'.toUpperCase(),
@@ -426,6 +518,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'X',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Yoshihiro Togashi'.toUpperCase(),
@@ -435,6 +529,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Y',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Yasup Uchida'.toUpperCase(),
@@ -444,6 +540,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Y',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Zane Grey'.toUpperCase(),
@@ -453,6 +551,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Z',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Agnes Nutter'.toUpperCase(),
@@ -462,6 +562,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Broom Hilda'.toUpperCase(),
@@ -471,6 +573,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Castaspella'.toUpperCase(),
@@ -480,6 +584,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Clotilde'.toUpperCase(),
@@ -489,6 +595,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Davina'.toUpperCase(),
@@ -498,6 +606,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Evanora'.toUpperCase(),
@@ -507,6 +617,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Edwina'.toUpperCase(),
@@ -516,6 +628,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Esme Cullen'.toUpperCase(),
@@ -525,6 +639,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Fenella Feverfew'.toUpperCase(),
@@ -534,6 +650,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'F',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Galiena'.toUpperCase(),
@@ -543,6 +661,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Hilda Spellman'.toUpperCase(),
@@ -552,6 +672,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Hope Mikaelson'.toUpperCase(),
@@ -561,6 +683,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Isobel Flemming'.toUpperCase(),
@@ -570,6 +694,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'I',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jaelle'.toUpperCase(),
@@ -579,6 +705,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jeremy Danvers'.toUpperCase(),
@@ -588,6 +716,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kate Denali'.toUpperCase(),
@@ -597,6 +727,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kinetix'.toUpperCase(),
@@ -606,6 +738,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Leanne'.toUpperCase(),
@@ -615,6 +749,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Lily Luna Potter'.toUpperCase(),
@@ -624,6 +760,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Morag'.toUpperCase(),
@@ -633,6 +771,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Nimue'.toUpperCase(),
@@ -642,6 +782,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'N',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ninfadora Tonks'.toUpperCase(),
@@ -651,6 +793,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'N',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Orddu'.toUpperCase(),
@@ -660,6 +804,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Pekka'.toUpperCase(),
@@ -669,6 +815,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Quil Ateara'.toUpperCase(),
@@ -678,6 +826,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Q',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Qoo'.toUpperCase(),
@@ -687,6 +837,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Q',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Sabrina Spellman'.toUpperCase(),
@@ -696,6 +848,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Sukie Ridgemont'.toUpperCase(),
@@ -705,6 +859,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Thomasin'.toUpperCase(),
@@ -714,6 +870,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Umbridge'.toUpperCase(),
@@ -723,6 +881,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'U',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ulick Gamp'.toUpperCase(),
@@ -732,6 +892,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'U',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Viv'.toUpperCase(),
@@ -741,6 +903,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Vicente'.toUpperCase(),
@@ -750,6 +914,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Wadanohara'.toUpperCase(),
@@ -759,6 +925,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Xayide'.toUpperCase(),
@@ -768,6 +936,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'X',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Yuko Ichihara'.toUpperCase(),
@@ -777,6 +947,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Y',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Zafrina'.toUpperCase(),
@@ -786,6 +958,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Z',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Zelda Spellman'.toUpperCase(),
@@ -795,6 +969,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Z',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Andy Lewis'.toUpperCase(),
@@ -804,6 +980,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Andy Williams'.toUpperCase(),
@@ -813,6 +991,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Arturo Sandoval'.toUpperCase(),
@@ -822,6 +1002,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Big Boi'.toUpperCase(),
@@ -831,6 +1013,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Boyz II Men'.toUpperCase(),
@@ -840,6 +1024,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Diddy'.toUpperCase(),
@@ -849,6 +1035,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Danny Wood'.toUpperCase(),
@@ -858,6 +1046,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Gloria Estefan'.toUpperCase(),
@@ -867,6 +1057,8 @@ module.exports = {
         status: 'rejected',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: "Helen O'Connell",
@@ -876,6 +1068,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Labelle'.toUpperCase(),
@@ -885,6 +1079,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Lenny Kravitz'.toUpperCase(),
@@ -894,6 +1090,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Martha Reeves'.toUpperCase(),
@@ -903,6 +1101,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Missy Elliott'.toUpperCase(),
@@ -912,6 +1112,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Red Hot Chili Peppers'.toUpperCase(),
@@ -921,6 +1123,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ray Charles'.toUpperCase(),
@@ -930,6 +1134,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Smokey Robinson'.toUpperCase(),
@@ -939,6 +1145,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Up With People'.toUpperCase(),
@@ -948,6 +1156,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'U',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Vanessa Hudgens'.toUpperCase(),
@@ -957,6 +1167,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Van Halen'.toUpperCase(),
@@ -966,6 +1178,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Woddy Herman'.toUpperCase(),
@@ -975,6 +1189,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Wynonna Judd'.toUpperCase(),
@@ -984,6 +1200,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Will.I.Am'.toUpperCase(),
@@ -993,6 +1211,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Youth Orchestra Los Angeles'.toUpperCase(),
@@ -1002,6 +1222,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Y',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Bulbasaur'.toUpperCase(),
@@ -1011,6 +1233,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ivysaur'.toUpperCase(),
@@ -1020,6 +1244,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'I',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Venusaur'.toUpperCase(),
@@ -1029,6 +1255,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Charmander'.toUpperCase(),
@@ -1038,6 +1266,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Charmeleon'.toUpperCase(),
@@ -1047,6 +1277,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Charizard'.toUpperCase(),
@@ -1056,6 +1288,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Squirtle'.toUpperCase(),
@@ -1065,6 +1299,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Wartortle'.toUpperCase(),
@@ -1074,6 +1310,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Blastoise'.toUpperCase(),
@@ -1083,6 +1321,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Caterpie'.toUpperCase(),
@@ -1092,6 +1332,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Metapod'.toUpperCase(),
@@ -1101,6 +1343,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Butterfree'.toUpperCase(),
@@ -1110,6 +1354,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Spearow'.toUpperCase(),
@@ -1119,6 +1365,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Fearow'.toUpperCase(),
@@ -1128,6 +1376,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'F',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ekans'.toUpperCase(),
@@ -1137,6 +1387,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Arbok'.toUpperCase(),
@@ -1146,6 +1398,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Pikachu'.toUpperCase(),
@@ -1155,6 +1409,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Raichu'.toUpperCase(),
@@ -1164,6 +1420,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Clefairy'.toUpperCase(),
@@ -1173,6 +1431,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Clefable'.toUpperCase(),
@@ -1182,6 +1442,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jigglypuff'.toUpperCase(),
@@ -1191,6 +1453,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Wigglytuff'.toUpperCase(),
@@ -1200,6 +1464,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Vulpix'.toUpperCase(),
@@ -1209,6 +1475,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ninetales'.toUpperCase(),
@@ -1218,6 +1486,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'N',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Golbat'.toUpperCase(),
@@ -1227,6 +1497,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Oddish'.toUpperCase(),
@@ -1236,6 +1508,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Gloom'.toUpperCase(),
@@ -1245,6 +1519,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Vileplume'.toUpperCase(),
@@ -1254,6 +1530,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Paras'.toUpperCase(),
@@ -1263,6 +1541,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Parasect'.toUpperCase(),
@@ -1272,6 +1552,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Venonat'.toUpperCase(),
@@ -1281,6 +1563,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Venomoth'.toUpperCase(),
@@ -1290,6 +1574,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Diglett'.toUpperCase(),
@@ -1299,6 +1585,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dugtrio'.toUpperCase(),
@@ -1308,6 +1596,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Meowth'.toUpperCase(),
@@ -1317,6 +1607,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Persian'.toUpperCase(),
@@ -1326,6 +1618,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Psyduck'.toUpperCase(),
@@ -1335,6 +1629,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Golduck'.toUpperCase(),
@@ -1344,6 +1640,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mankey'.toUpperCase(),
@@ -1353,6 +1651,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Primeape'.toUpperCase(),
@@ -1362,6 +1662,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Growlithe'.toUpperCase(),
@@ -1371,6 +1673,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Arcanine'.toUpperCase(),
@@ -1380,6 +1684,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Poliwag'.toUpperCase(),
@@ -1389,6 +1695,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Poliwhirl'.toUpperCase(),
@@ -1398,6 +1706,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Poliwrath'.toUpperCase(),
@@ -1407,6 +1717,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Abra'.toUpperCase(),
@@ -1416,6 +1728,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kadabra'.toUpperCase(),
@@ -1425,6 +1739,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Alakazam'.toUpperCase(),
@@ -1434,6 +1750,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Machop'.toUpperCase(),
@@ -1443,6 +1761,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Machoke'.toUpperCase(),
@@ -1452,6 +1772,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Machamp'.toUpperCase(),
@@ -1461,6 +1783,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Bellsprout'.toUpperCase(),
@@ -1470,6 +1794,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'B',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Weepinbell'.toUpperCase(),
@@ -1479,6 +1805,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Victreebel'.toUpperCase(),
@@ -1488,6 +1816,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Tentacool'.toUpperCase(),
@@ -1497,6 +1827,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Tentacruel'.toUpperCase(),
@@ -1506,6 +1838,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Geodude'.toUpperCase(),
@@ -1515,6 +1849,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Graveler'.toUpperCase(),
@@ -1524,6 +1860,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Golem'.toUpperCase(),
@@ -1533,6 +1871,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ponyta'.toUpperCase(),
@@ -1542,6 +1882,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Rapidash'.toUpperCase(),
@@ -1551,6 +1893,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Slowpoke'.toUpperCase(),
@@ -1560,6 +1904,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Slowbro'.toUpperCase(),
@@ -1569,6 +1915,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Magnemite'.toUpperCase(),
@@ -1578,6 +1926,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Magneton'.toUpperCase(),
@@ -1587,6 +1937,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Doduo'.toUpperCase(),
@@ -1596,6 +1948,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dodrio'.toUpperCase(),
@@ -1605,6 +1959,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Seel'.toUpperCase(),
@@ -1614,6 +1970,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dewgong'.toUpperCase(),
@@ -1623,6 +1981,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Grimer'.toUpperCase(),
@@ -1632,6 +1992,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Muk'.toUpperCase(),
@@ -1641,6 +2003,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Shellder'.toUpperCase(),
@@ -1650,6 +2014,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Cloyster'.toUpperCase(),
@@ -1659,6 +2025,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Onix'.toUpperCase(),
@@ -1668,6 +2036,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Drowzee'.toUpperCase(),
@@ -1677,6 +2047,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Hypno'.toUpperCase(),
@@ -1686,6 +2058,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Krabby'.toUpperCase(),
@@ -1695,6 +2069,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kingler'.toUpperCase(),
@@ -1704,6 +2080,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Voltorb'.toUpperCase(),
@@ -1713,6 +2091,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Electrode'.toUpperCase(),
@@ -1722,6 +2102,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Exeggcute'.toUpperCase(),
@@ -1731,6 +2113,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Exeggutor'.toUpperCase(),
@@ -1740,6 +2124,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Cubone'.toUpperCase(),
@@ -1749,6 +2135,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Marowak'.toUpperCase(),
@@ -1758,6 +2146,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Hitmonlee'.toUpperCase(),
@@ -1767,6 +2157,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Hitmonchan'.toUpperCase(),
@@ -1776,6 +2168,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Lickitung'.toUpperCase(),
@@ -1785,6 +2179,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Koffing'.toUpperCase(),
@@ -1794,6 +2190,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Weezing'.toUpperCase(),
@@ -1803,6 +2201,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'W',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Rhyhorn'.toUpperCase(),
@@ -1812,6 +2212,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Rhydon'.toUpperCase(),
@@ -1821,6 +2223,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'R',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Chansey'.toUpperCase(),
@@ -1830,6 +2234,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'C',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Tangela'.toUpperCase(),
@@ -1839,6 +2245,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kangaskhan'.toUpperCase(),
@@ -1848,6 +2256,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Horsea'.toUpperCase(),
@@ -1857,6 +2267,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'H',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Seadra'.toUpperCase(),
@@ -1866,6 +2278,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Goldeen'.toUpperCase(),
@@ -1875,6 +2289,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Seaking'.toUpperCase(),
@@ -1884,6 +2300,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Staryu'.toUpperCase(),
@@ -1893,6 +2311,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Starmie'.toUpperCase(),
@@ -1902,6 +2322,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mr. Mime'.toUpperCase(),
@@ -1911,6 +2333,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Scyther'.toUpperCase(),
@@ -1920,6 +2344,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jynx'.toUpperCase(),
@@ -1929,6 +2355,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Electabuzz'.toUpperCase(),
@@ -1938,6 +2366,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Magmar'.toUpperCase(),
@@ -1947,6 +2377,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Pinsir'.toUpperCase(),
@@ -1956,6 +2388,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Tauros'.toUpperCase(),
@@ -1965,6 +2399,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'T',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Magikarp'.toUpperCase(),
@@ -1974,6 +2410,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Gyarados'.toUpperCase(),
@@ -1983,6 +2421,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'G',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Lapras'.toUpperCase(),
@@ -1992,6 +2432,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'L',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Ditto'.toUpperCase(),
@@ -2001,6 +2443,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Eevee'.toUpperCase(),
@@ -2010,6 +2454,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'E',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Vaporeon'.toUpperCase(),
@@ -2019,6 +2465,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'V',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Jolteon'.toUpperCase(),
@@ -2028,6 +2476,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'J',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Flareon'.toUpperCase(),
@@ -2037,6 +2487,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'F',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Porygon'.toUpperCase(),
@@ -2046,6 +2498,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'P',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Omanyte'.toUpperCase(),
@@ -2055,6 +2509,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Omastar'.toUpperCase(),
@@ -2064,6 +2520,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'O',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kabuto'.toUpperCase(),
@@ -2073,6 +2531,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Kabutops'.toUpperCase(),
@@ -2082,6 +2542,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'K',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Aerodactyl'.toUpperCase(),
@@ -2091,6 +2553,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Snorlax'.toUpperCase(),
@@ -2100,6 +2564,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'S',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Articuno'.toUpperCase(),
@@ -2109,6 +2575,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'A',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Zapdos'.toUpperCase(),
@@ -2118,6 +2586,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'Z',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Moltres'.toUpperCase(),
@@ -2127,6 +2597,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dratini'.toUpperCase(),
@@ -2136,6 +2608,8 @@ module.exports = {
         status: 'pending',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dragonair'.toUpperCase(),
@@ -2145,6 +2619,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Dragonite'.toUpperCase(),
@@ -2154,6 +2630,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'D',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mewtwo'.toUpperCase(),
@@ -2163,6 +2641,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
       {
         answer: 'Mew'.toUpperCase(),
@@ -2172,6 +2652,8 @@ module.exports = {
         status: 'accepted',
         public: [true, true, true, false, false][Math.floor(Math.random() * 5)],
         letter: 'M',
+        likes: JSON.stringify([]),
+        views: 0,
       },
     ]);
   },

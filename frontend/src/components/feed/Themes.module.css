@@ -1,0 +1,60 @@
+.aside {
+  margin-right: 0.25rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.aside a,
+.aside h2 {
+  font-family: var(--type-fst);
+}
+
+.aside h2 {
+  font-size: 1.25rem;
+}
+
+.aside a {
+  font-size: 1rem;
+}
+
+.aside {
+  flex: 1;
+}
+
+.themes {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.selected {
+  border-color: crimson;
+}
+
+.categories {
+  background-color: white;
+  & > a {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    margin: 0.5rem;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    color: #333;
+
+    &:hover {
+      border-color: var(--color);
+      color: #222;
+    }
+  }
+}
+
+@media (max-width: 40rem) {
+  .aside {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a, h2 {
+    text-align: center;
+  }
+}

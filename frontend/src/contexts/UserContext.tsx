@@ -34,10 +34,9 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
       else {
         setUserData(json);
         setLogin(true);
-        navigate('/conta');
       }
     },
-    [navigate],
+    [],
   );
 
   React.useEffect(() => {
@@ -96,15 +95,17 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <UserContext.Provider
-      value={{
-        userLogin,
-        userLogout,
-        userData,
-        error,
-        login,
-        loading,
-        setLoading,
-      }}
+      value={
+        {
+          userLogin,
+          userLogout,
+          userData,
+          error,
+          login,
+          loading,
+          setLoading,
+        } as UserContextProps
+      }
     >
       {children}
     </UserContext.Provider>
